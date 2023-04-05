@@ -37,6 +37,7 @@
 		ACD5074329DDB358009F6118 = {
 			isa = PBXGroup;
 			children = (
+				ACD5075D29DDB438009F6118 /* Readme.md */,
 				ACD5074E29DDB358009F6118 /* My Business Card */,
 				ACD5074D29DDB358009F6118 /* Products */,
 			);
@@ -57,7 +58,6 @@
 				ACD5075129DDB358009F6118 /* ContentView.swift */,
 				ACD5075329DDB359009F6118 /* Assets.xcassets */,
 				ACD5075529DDB359009F6118 /* Preview Content */,
-				ACD5075D29DDB438009F6118 /* Readme.md */,
 			);
 			path = "My Business Card";
 			sourceTree = "<group>";
