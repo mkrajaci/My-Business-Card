@@ -9,8 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        ZStack
-        {
+        ZStack {
             Color(red: 0.16, green: 0.50, blue: 0.73)
                 .edgesIgnoringSafeArea(.all)
             VStack {
@@ -27,9 +26,10 @@ struct ContentView: View {
                 Text("iOS developer")
                     .font(.system(size: 25))
                     .foregroundColor(.white)
-                
+                Divider()
+                InfoView(text: "mario@email.com", imageName: "envelope.fill")
+                InfoView(text: "+385 12 345 6789", imageName: "phone.fill")
             }
-            .padding()
         }
     }
 }
