@@ -15,7 +15,7 @@ struct ContentView: View {
                 .edgesIgnoringSafeArea(.all)
             VStack {
                 Text("Mario Krajačić")
-                    .font(.title)
+                    .font(Font.custom("Alkatra", size: 42))
                     .bold()
                     .foregroundColor(.white)
                 Image(systemName: "globe")
