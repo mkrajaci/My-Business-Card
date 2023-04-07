@@ -33,6 +33,7 @@ struct ContentView: View {
         }
     }
 }
+// TODO: fix view in landscape orientation 
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
